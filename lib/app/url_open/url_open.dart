@@ -47,4 +47,9 @@ class UrlOpen implements IUrlOpen {
   Future<void> closeWebView() {
     return url_launcher.closeInAppWebView();
   }
+
+  @override
+  String functionA() {
+    return 'Função A';
+  }
 }

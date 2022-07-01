@@ -9,4 +9,5 @@ abstract class IUrlOpen {
   });
 
   Future<void> closeWebView();
+  String functionA();
 }
